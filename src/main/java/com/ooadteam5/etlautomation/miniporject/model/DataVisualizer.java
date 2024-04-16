@@ -24,6 +24,7 @@ public class DataVisualizer extends Application {
       var numColumnName = table.numericColumns();
       var catColumnName = table.categoricalColumns();
 
+      //Convert to string arrays
       String[] numColumns = numColumnName.toArray(new String[0]);
       String[] catColumns = catColumnName.toArray(new String[0]);
 
