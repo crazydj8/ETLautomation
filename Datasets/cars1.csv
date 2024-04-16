@@ -1,0 +1,107 @@
+Dimensions_Height,Dimensions_Length,Dimensions_Width,Engine Type,Number of Forward Gears,City mpg,Highway mpg,Model Year,Identification_Year,Engine Statistics_Horsepower,Engine Statistics_Torque
+140,143,202,Audi 3.2L 6 cylinder 250hp 236ft-lbs,6,18,25,2009 Audi A3,2009,250,236
+140,143,202,Audi 2.0L 4 cylinder 200 hp 207 ft-lbs Turbo,6,22,28,2009 Audi A3,2009,200,207
+140,143,202,Audi 2.0L 4 cylinder 200 hp 207 ft-lbs Turbo,6,21,30,2009 Audi A3,2009,200,207
+140,143,202,Audi 2.0L 4 cylinder 200 hp 207 ft-lbs Turbo,6,21,28,2009 Audi A3,2009,200,207
+140,143,202,Audi 2.0L 4 cylinder 200 hp 207 ft-lbs Turbo,6,21,28,2009 Audi A3,2009,200,207
+91,17,62,Audi 3.2L 6 cylinder 265hp 243 ft-lbs,6,16,27,2009 Audi A5,2009,265,243
+91,17,62,Audi 3.2L 6 cylinder 265hp 243 ft-lbs,6,17,26,2009 Audi A5,2009,265,243
+201,221,191,Audi 4.2L 8 cylinder 350 hp 325 ft-lbs,6,13,18,2009 Audi Q7,2009,350,325
+201,221,191,Audi 3.6L 6 cylinder 280hp 266 ft-lbs,6,14,20,2009 Audi Q7,2009,280,266
+147,96,34,Audi 2.0L 4 cylinder 211 hp 258 ft-lbs Turbo,6,NAN,30,2009 Audi A4 Sedan,2009,211,258
+147,96,34,Audi 2.0L 4 cylinder 211 hp 258 ft-lbs Turbo,6,21,27,2009 Audi A4 Sedan,2009,211,258
+147,96,34,Audi 3.2L 6 cylinder 265hp 243 ft-lbs,6,17,26,2009 Audi A4 Sedan,2009,265,243
+172,63,87,Acura 3.5L 6 Cylinder 280 hp 254 ft-lbs,6,20,29,2012 Acura TL,2012,280,254
+172,63,87,Acura 3.7L 6 Cylinder 305 hp 273 ft-lbs,6,NAN,26,2012 Acura TL,2012,305,273
+226,243,201,BMW 4.4L 8 cylinder 555hp 500 ft-lbs Turbo,6,12,17,2010 BMW X5,2010,555,500
+226,243,201,BMW 4.4L 8 cylinder 555hp 500 ft-lbs Turbo,6,12,17,2011 BMW X5,2011,555,500
+148,12,191,BMW 4.4L 8 cylinder 555hp 500 ft-lbs Turbo,6,12,17,2010 BMW X6,2010,555,500
+148,12,191,BMW 4.4L 8 cylinder 555hp 500 ft-lbs Turbo,6,12,17,2011 BMW X6,2011,555,500
+112,22,181,Chevrolet 2.9L 4 Cylinder 185 hp 190 ft-lbs,5,NAN,25,2012 Chevrolet Colorado,2012,185,190
+112,140,181,Chevrolet 2.9L 4 Cylinder 185 hp 190 ft-lbs,5,18,25,2012 Chevrolet Colorado,2012,185,190
+120,140,181,Chevrolet 2.9L 4 Cylinder 185 hp 190 ft-lbs,4,NAN,25,2012 Chevrolet Colorado,2012,185,190
+112,22,181,Chevrolet 2.9L 4 Cylinder 185 hp 190 ft-lbs,5,NAN,25,2011 Chevrolet Colorado,2011,185,190
+112,140,181,Chevrolet 2.9L 4 Cylinder 185 hp 190 ft-lbs,5,18,25,2011 Chevrolet Colorado,2011,185,190
+120,140,181,Chevrolet 2.9L 4 Cylinder 185 hp 190 ft-lbs,4,18,25,2011 Chevrolet Colorado,2011,185,190
+112,22,181,Chevrolet 2.9L 4 Cylinder 185 hp 190 ft-lbs,5,18,25,2010 Chevrolet Colorado,2010,185,190
+112,140,181,Chevrolet 2.9L 4 Cylinder 185 hp 190 ft-lbs,5,20,26,2010 Chevrolet Colorado,2010,185,190
+120,140,181,Chevrolet 2.9L 4 Cylinder 185 hp 190 ft-lbs,4,18,25,2010 Chevrolet Colorado,2010,185,190
+77,60,219,Chevrolet 5.3L 8 Cylinder 310 hp 334 ft-lbs FFV,4,13,18,2012 Chevrolet Express,2012,310,334
+77,60,219,Chevrolet 5.3L 8 Cylinder 310 hp 334 ft-lbs FFV,4,9,12,2012 Chevrolet Express,2012,310,334
+77,60,219,Chevrolet 5.3L 8 Cylinder 310 hp 334 ft-lbs FFV,4,13,17,2011 Chevrolet Express,2011,310,334
+77,60,219,Chevrolet 5.3L 8 Cylinder 310 hp 334 ft-lbs FFV,4,13,17,2011 Chevrolet Express,2011,310,334
+22,60,219,Chevrolet 4.8L 8 Cylinder 280 hp 295 ft-lbs FFV,6,8,12,2011 Chevrolet Express,2011,280,295
+22,60,219,Chevrolet 6.0L 8 Cylinder 324 hp 373 ft-lbs FFV,6,8,12,2011 Chevrolet Express,2011,324,373
+24,60,224,Chevrolet 5.3L 8 Cylinder 310 hp 334 ft-lbs FFV,4,10,13,2010 Chevrolet Express,2010,310,334
+24,60,224,Chevrolet 5.3L 8 Cylinder 310 hp 334 ft-lbs FFV,4,13,17,2010 Chevrolet Express,2010,310,334
+77,102,237,Chevrolet 4.3L 6 Cylinder 195 hp 260 ft-lbs,4,15,20,2011 Chevrolet Silverado 1500,2011,195,260
+82,215,240,Chevrolet 4.8L 8 Cylinder 302 hp 305 ft-lbs FFV,4,14,19,2011 Chevrolet Silverado 1500,2011,302,305
+85,215,237,Chevrolet 4.3L 6 Cylinder 195 hp 260 ft-lbs,4,15,20,2011 Chevrolet Silverado 1500,2011,195,260
+85,215,237,Chevrolet 4.3L 6 Cylinder 195 hp 260 ft-lbs,4,15,20,2010 Chevrolet Silverado 1500,2010,195,260
+77,102,237,Chevrolet 4.3L 6 Cylinder 195 hp 260 ft-lbs,4,15,20,2010 Chevrolet Silverado 1500,2010,195,260
+82,215,240,Chevrolet 4.8L 8 Cylinder 302 hp 305 ft-lbs FFV,4,14,19,2010 Chevrolet Silverado 1500,2010,302,305
+43,52,52,Nissan 3.7L 6 Cylinder 350hp 276 ft-lbs,6,18,26,2011 Nissan 370Z Coupe,2011,350,276
+35,75,52,Nissan 3.7L 6 Cylinder 350hp 276 ft-lbs,6,18,26,2010 Nissan 370Z Coupe,2010,350,276
+35,75,52,Nissan 3.7L 6 Cylinder 350hp 276 ft-lbs,6,18,26,2009 Nissan 370Z Coupe,2009,350,276
+167,168,247,Volvo 2.5L 5 Cylinder 227 hp 236 ft-lbs Turbo,6,21,29,2011 Volvo C30,2011,227,236
+167,168,247,Volvo 2.5L 5 Cylinder 227 hp 236 ft-lbs Turbo,5,21,30,2011 Volvo C30,2011,227,236
+167,155,247,Volvo 2.5L 5 Cylinder 227 hp 236 ft-lbs Turbo,5,21,30,2010 Volvo C30,2010,227,236
+167,155,247,Volvo 2.5L 5 Cylinder 227 hp 236 ft-lbs Turbo,6,21,29,2010 Volvo C30,2010,227,236
+193,34,107,Bentley 6.8L 8 cylinder 530hp 774 ft-lbs Turbo,6,9,15,2010 Bentley Brooklands,2010,530,774
+99,195,153,Bentley 6.0L 12 Cylinder 621 hp 590 ft-lbs FFV Turbo,6,8,14,2012 Bentley Continental Supersports Convertible,2012,621,590
+110,199,153,Bentley 6.0L 12 Cylinder 621 hp 590 ft-lbs FFV Turbo,6,8,14,2012 Bentley Continental Supersports Coupe,2012,621,590
+99,195,153,Bentley 6.0L 12 Cylinder 621 hp 590 ft-lbs FFV Turbo,6,8,14,2011 Bentley Continental Supersports Convertible,2011,621,590
+99,195,153,Bentley 6.0L 12 Cylinder 621 hp 590 ft-lbs FFV Turbo,6,12,19,2010 Bentley Continental Supersports,2010,621,590
+118,170,184,Bentley 6.0L 12 Cylinder 552 hp 479 ft-lbs FFV Turbo,6,8,13,2012 Bentley Continental Flying Spur,2012,552,479
+108,170,184,Bentley 6.0L 12 Cylinder 600 hp 553 ft-lbs FFV Turbo,6,11,19,2012 Bentley Continental Flying Spur,2012,600,553
+185,170,184,Bentley 6.0L 12 Cylinder 600 hp 553 ft-lbs FFV Turbo,6,10,17,2011 Bentley Continental Flying Spur,2011,600,553
+185,170,184,Bentley 6.0L 12 cylinder 600hp 553 ft-lbs Turbo,6,10,17,2010 Bentley Continental Flying Spur,2010,600,553
+195,170,184,Bentley 6.0L 12 cylinder 552 hp 479 ft-lbs Turbo,6,10,17,2010 Bentley Continental Flying Spur,2010,552,479
+120,7,44,Volvo 2.5L 5 Cylinder 227 hp 236 ft-lbs Turbo,5,19,28,2011 Volvo C70,2011,227,236
+119,230,44,Volvo 2.5L 5 Cylinder 227 hp 236 ft-lbs Turbo,6,20,28,2010 Volvo C70,2010,227,236
+119,230,44,Volvo 2.5L 5 Cylinder 227 hp 236 ft-lbs Turbo,5,19,28,2010 Volvo C70,2010,227,236
+172,123,234,Volvo 2.4L 5 Cylinder 168 hp 166 ft-lbs,5,21,29,2010 Volvo S40,2010,168,170
+172,123,234,Volvo 2.5L 5 Cylinder 227 hp 236 ft-lbs Turbo,5,21,30,2010 Volvo S40,2010,227,236
+172,123,234,Volvo 2.5L 5 Cylinder 227 hp 236 ft-lbs Turbo,5,21,30,2011 Volvo S40,2011,227,236
+190,123,234,Volvo 2.5L 5 Cylinder 227 hp 236 ft-lbs Turbo,6,20,27,2010 Volvo S40,2010,227,236
+203,19,72,Volvo 2.5L 5 Cylinder 250 hp 266 ft-lbs Turbo,6,20,30,2012 Volvo S60,2012,250,266
+203,19,72,Volvo 3.0 L 6 Cylinder 300 HP 325 ft-lbs Turbo,6,18,26,2012 Volvo S60,2012,300,325
+203,19,72,Volvo 3.0 L 6 Cylinder 325 HP 354 ft-lbs Turbo,6,18,26,2012 Volvo S60,2012,325,354
+203,14,72,Volvo 3.0 L 6 Cylinder 300 HP 325 ft-lbs Turbo,6,18,26,2011 Volvo S60,2011,300,325
+213,243,69,Volvo 3.2 L 6 cylinder 240 hp 236 ft-lbs,6,19,27,2011 Volvo S80,2011,240,236
+213,243,69,Volvo 4.4L 8 Cylinder 311 hp 325 ft-lbs,6,15,22,2010 Volvo S80,2010,311,325
+213,243,69,Volvo 3.0L 6 Cylinder 281 hp 295 ft-lbs Turbo,6,16,24,2010 Volvo S80,2010,281,295
+213,243,69,Volvo 3.2L 6 Cylinder 235 hp 236 ft-lbs,6,18,27,2010 Volvo S80,2010,235,236
+177,169,234,Volvo 2.5L 5 Cylinder 227 hp 236 ft-lbs Turbo,5,21,30,2011 Volvo V50,2011,227,236
+193,169,234,Volvo 2.5L 5 Cylinder 227 hp 236 ft-lbs Turbo,6,20,26,2010 Volvo V50,2010,227,236
+177,169,234,Volvo 2.4L 5 Cylinder 168 hp 166 ft-lbs,5,20,31,2010 Volvo V50,2010,168,170
+175,19,97,Volvo 3.0 L 6 Cylinder 300 HP 325 ft-lbs Turbo,6,17,22,2011 Volvo XC60,2011,300,325
+175,19,97,Volvo 3.2 L 6 cylinder 240 hp 236 ft-lbs,6,18,25,2011 Volvo XC60,2011,240,236
+175,19,97,Volvo 3.0L 6 Cylinder 281 hp 295 ft-lbs Turbo,6,16,21,2010 Volvo XC60,2010,281,295
+175,19,97,Volvo 3.2L 6 Cylinder 235 hp 236 ft-lbs,6,18,27,2010 Volvo XC60,2010,235,236
+66,230,69,Volvo 3.2 L 6 cylinder 240 hp 236 ft-lbs,6,18,25,2011 Volvo XC70,2011,240,236
+66,230,69,Volvo 3.0 L 6 Cylinder 300 HP 325 ft-lbs Turbo,6,17,22,2011 Volvo XC70,2011,300,325
+66,230,69,Volvo 3.0L 6 Cylinder 281 hp 295 ft-lbs Turbo,6,16,21,2010 Volvo XC70,2010,281,295
+66,230,69,Volvo 3.2L 6 Cylinder 235 hp 236 ft-lbs,6,16,22,2010 Volvo XC70,2010,235,236
+24,216,133,Toyota 4.0L 6 Cylinder 270 hp 278 ft-lbs,5,17,23,2011 Toyota 4Runner,2011,270,278
+24,216,24,Toyota 4.0L 6 Cylinder 270 hp 278 ft-lbs,5,17,22,2011 Toyota 4Runner,2011,270,278
+93,216,133,Toyota 4.0L 6 Cylinder 270 hp 278 ft-lbs,5,17,22,2011 Toyota 4Runner,2011,270,278
+24,216,133,Toyota 4.0L 6 Cylinder 270 hp 278 ft-lbs,5,17,23,2011 Toyota 4Runner,2011,270,278
+24,216,133,Toyota 4.0L 6 Cylinder 270 hp 278 ft-lbs,5,17,22,2011 Toyota 4Runner,2011,270,278
+247,200,105,Volvo 3.2 L 6 cylinder 240 hp 236 ft-lbs,6,16,22,2011 Volvo XC90,2011,240,236
+247,200,105,Volvo 4.4L 8 Cylinder 311 hp 325 ft-lbs,6,14,21,2011 Volvo XC90,2011,311,325
+247,200,105,Volvo 3.2L 6 Cylinder 235 hp 236 ft-lbs,6,15,22,2010 Volvo XC90,2010,235,236
+247,200,105,Volvo 4.4L 8 Cylinder 311 hp 325 ft-lbs,6,13,19,2010 Volvo XC90,2010,311,325
+10,215,69,Volvo 3.2L 6 Cylinder 235 hp 236 ft-lbs,6,18,27,2010 Volvo V70,2010,235,236
+24,216,133,Toyota 2.7L 4 Cylinder 157 hp 178 ft-lbs,4,18,23,2010 Toyota 4Runner,2010,157,178
+24,216,133,Toyota 4.0L 6 Cylinder 270 hp 278 ft-lbs,5,17,23,2010 Toyota 4Runner,2010,270,278
+24,216,133,Toyota 4.0L 6 Cylinder 270 hp 278 ft-lbs,5,17,22,2010 Toyota 4Runner,2010,270,278
+93,216,133,Toyota 4.0L 6 Cylinder 270 hp 278 ft-lbs,5,17,22,2010 Toyota 4Runner,2010,270,278
+24,216,133,Toyota 4.0L 6 Cylinder 270 hp 278 ft-lbs,5,17,23,2010 Toyota 4Runner,2010,270,278
+24,216,133,Toyota 4.0L 6 Cylinder 270 hp 278 ft-lbs,5,17,22,2010 Toyota 4Runner,2010,270,278
+143,196,203,Audi 2.0L 4 cylinder 200 hp 207 ft-lbs Turbo,6,21,30,2012 Audi A3,2012,200,207
+152,240,57,Honda 3.5L 6 Cylinder 271hp 251 ft-lbs,6,17,25,2010 Honda Accord Coupe,2010,271,251
+152,240,57,Honda 2.4L 4 cylinder 190 hp 162 ft-lbs,5,21,31,2010 Honda Accord Coupe,2010,190,162
+152,240,57,Honda 2.4L 4 cylinder 190 hp 162 ft-lbs,5,22,31,2010 Honda Accord Coupe,2010,190,162
+152,240,57,Honda 2.4L 4 cylinder 190 hp 162 ft-lbs,5,21,31,2010 Honda Accord Coupe,2010,190,162
+152,240,57,Honda 3.5L 6 Cylinder 271hp 251 ft-lbs,5,19,28,2010 Honda Accord Coupe,2010,271,251
