@@ -6,10 +6,9 @@ import tech.tablesaw.api.Table;
 
 public class DataAnalyzer {
     static Table dataTable;
-    DataAnalyzer()
+    public DataAnalyzer(Table data)
     {
-        DataProcessor processor = new DataProcessor();
-        //initialize dataTable here
+        dataTable = data;
     }
     public Table summarize()
     {
@@ -99,34 +98,33 @@ public class DataAnalyzer {
         }
     }
     
-    /*
-    public static void main(String[] args) {
-        DataAnalyzer dataAnalyzer = new DataAnalyzer();
-        Table summaries = dataAnalyzer.summarize();
-        Table normalized = dataAnalyzer.normalize();
-        double correlation[][] = dataAnalyzer.correlation(normalized);
-        Dictionary<String, Double> skew = dataAnalyzer.getSkewness(normalized);
-        Dictionary<String, Double> kurtosis = dataAnalyzer.getKurtosis(normalized);
-        System.out.println(summaries);
-        System.out.println(normalized.first(3));
-        System.out.println();
-        for(int i = 0; i < normalized.columnCount()-dataTable.columnCount(); i++)
-        {
-            for(int j = 0; j < normalized.columnCount()-dataTable.columnCount(); j++)
-                System.out.print(correlation[i][j] + " ");
-            System.out.println();
-        }
-        System.out.println();
-        Enumeration<String> i = skew.keys();
-        while(i.hasMoreElements()){
-            String key = i.nextElement();
-            System.out.println(key + ": " + skew.get(key));
-        }
-        System.out.println();
-        Enumeration<String> j = kurtosis.keys();
-        while(j.hasMoreElements()){
-            String key = j.nextElement();
-            System.out.println(key + ": " + kurtosis.get(key));
-        }
-    } */
+//     public static void main(String[] args) {
+//         DataAnalyzer dataAnalyzer = new DataAnalyzer();
+//         Table summaries = dataAnalyzer.summarize();
+//         Table normalized = dataAnalyzer.normalize();
+//         double correlation[][] = dataAnalyzer.correlation(normalized);
+//         Dictionary<String, Double> skew = dataAnalyzer.getSkewness(normalized);
+//         Dictionary<String, Double> kurtosis = dataAnalyzer.getKurtosis(normalized);
+//         System.out.println(summaries);
+//         System.out.println(normalized.first(3));
+//         System.out.println();
+//         for(int i = 0; i < normalized.columnCount()-dataTable.columnCount(); i++)
+//         {
+//             for(int j = 0; j < normalized.columnCount()-dataTable.columnCount(); j++)
+//                 System.out.print(correlation[i][j] + " ");
+//             System.out.println();
+//         }
+//         System.out.println();
+//         Enumeration<String> i = skew.keys();
+//         while(i.hasMoreElements()){
+//             String key = i.nextElement();
+//             System.out.println(key + ": " + skew.get(key));
+//         }
+//         System.out.println();
+//         Enumeration<String> j = kurtosis.keys();
+//         while(j.hasMoreElements()){
+//             String key = j.nextElement();
+//             System.out.println(key + ": " + kurtosis.get(key));
+//         }
+//     }
 }
