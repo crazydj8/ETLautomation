@@ -79,7 +79,7 @@ public class DataVisualizer extends Application {
          xAxis.setLabel("Frequency");
 
          //Creating the bar chart
-         BarChart barchart = new BarChart<>(null, null);
+         BarChart barchart = new BarChart<>(xAxis, yAxis);
 
          //Prepare XYChart.Series objects by setting data 
          XYChart.Series series = new XYChart.Series<>();
