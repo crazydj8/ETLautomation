@@ -1,8 +1,9 @@
 package com.ooadteam5.etlautomation.miniporject.model;
 
-import tech.tablesaw.api.DoubleColumn;
+import tech.tablesaw.api.NumericColumn;
 import tech.tablesaw.api.Table;
 import tech.tablesaw.columns.Column;
+import tech.tablesaw.api.ColumnType;
 
 public class DataProcessor {
 
@@ -20,32 +21,31 @@ public class DataProcessor {
     }
 
     public Table handleOutliers(Table data) {
-        // Iterate over each column in the table
-        for (Column<?> column : data.columns()) {
-            // Only process numeric columns
-            if (column instanceof DoubleColumn) {
-                DoubleColumn doubleColumn = (DoubleColumn) column;
+        Table cleanedData = data.copy();
 
-                // Calculate Q1, Q3, and IQR
-                double q1 = doubleColumn.percentile(0.25);
-                double q3 = doubleColumn.percentile(0.75);
+        for (String columnName : cleanedData.columnNames()) {
+            if (cleanedData.column(columnName).type() == ColumnType.DOUBLE) {
+                NumericColumn<?> numericColumn = cleanedData.numberColumn(columnName);
+
+                double q1 = numericColumn.quartile1();
+                double q3 = numericColumn.quartile3();
                 double iqr = q3 - q1;
 
-                // Identify outliers
-                DoubleColumn outliers = doubleColumn
-                        .where(doubleColumn.isLessThan(q1 - 1.5 * iqr).or(doubleColumn.isGreaterThan(q3 + 1.5 * iqr)));
+                // Iterate over all rows
+                for (int i = 0; i < numericColumn.size(); i++) {
+                    double value = numericColumn.getDouble(i);
 
-                // Print out the column name and the number of outliers
-                System.out.println("Column: " + column.name() + ", Outliers: " + outliers.size());
-
-                // Remove outliers
-                data.removeColumns(column.name());
-                data.addColumns(doubleColumn.where(doubleColumn.isGreaterThanOrEqualTo(q1 - 1.5 * iqr)
-                        .and(doubleColumn.isLessThanOrEqualTo(q3 + 1.5 * iqr))));
+                    // Check if the value is an outlier
+                    if (value < q1 - 1.5 * iqr || value > q3 + 1.5 * iqr) {
+                        // If it is, set all values in the row to null
+                        for (String colName : cleanedData.columnNames()) {
+                            cleanedData.column(colName).set(i, null);
+                        }
+                    }
+                }
             }
         }
-
-        return data;
+        return cleanedData;
     }
 
     public Table removeDuplicates(Table data) {
