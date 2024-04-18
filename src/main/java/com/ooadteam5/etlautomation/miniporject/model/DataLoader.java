@@ -55,7 +55,7 @@ public class DataLoader {
         System.out.println("Enter row data as comma-separated values(type 'done' to finish): ");
         String input = br.nextLine();
         List<Column<?>> tabColumns = dataTable.columns();
-        if(!(input.equalsIgnoreCase("done"))){
+        while(!(input.equalsIgnoreCase("done"))){
                 String[] inputArray = input.split(",");
                 for(int i = 0; i < tabColumns.size(); i++)
                         tabColumns.get(i).appendCell(inputArray[i]);
