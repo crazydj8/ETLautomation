@@ -48,7 +48,7 @@ public class DataVisualizer extends Application {
       // table.first(3);
 
       Table dataTable;
-		String filePath = "Datasets/titanic.csv";
+		String filePath = "dataset_path.csv";
 
         // Create a DataLoader instance
         DataLoader dataLoader = new DataLoader(filePath);
@@ -220,7 +220,7 @@ public class DataVisualizer extends Application {
 
          //Defining the y axis             
          NumberAxis yAxis = new NumberAxis(); 
-         xAxis.setLabel("Frequency");
+         yAxis.setLabel("Frequency");
 
          //Creating the bar chart
          BarChart barchart = new BarChart<>(xAxis, yAxis);
